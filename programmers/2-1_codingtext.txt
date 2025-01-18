@@ -1,0 +1,7 @@
+#define FOOD 12000
+#define DRINK 2000
+
+int solution(int n, int k) {
+    int answer = n * FOOD + k * DRINK -(DRINK * (n / 10));
+    return answer;
+}
